@@ -12,7 +12,7 @@ margin:0; color:#111; background:#111; min-height:100%;
 }
 .site-header{background:transparent; color:var(--accent); position:relative; z-index:3}
 .hero{
-min-height:70vh; display:flex; align-items:center; position:relative; background-image: url('/mnt/data/fba6707a-25e3-4c29-a25e-f34729ba74c3.png'); background-size:cover; background-position:center;
+min-height:70vh; display:flex; align-items:center; position:relative;background-position:center;
 }
 .hero .overlay{position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.45)); backdrop-filter: blur(4px);}
 .card.glass{
