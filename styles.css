@@ -1,0 +1,26 @@
+:root{
+--accent: #f6c700;
+--card-bg: rgba(0,0,0,0.55);
+--glass: rgba(255,255,255,0.06);
+--radius: 14px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+margin:0; color:#111; background:#111; min-height:100%;
+}
+.site-header{background:transparent; color:var(--accent); position:relative; z-index:3}
+.hero{
+min-height:70vh; display:flex; align-items:center; position:relative; background-image: url('/mnt/data/fba6707a-25e3-4c29-a25e-f34729ba74c3.png'); background-size:cover; background-position:center;
+}
+.hero .overlay{position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.45)); backdrop-filter: blur(4px);}
+.card.glass{
+background:var(--card-bg); border-radius:var(--radius); color:white; position:relative; z-index:2; text-align:center;
+}
+.joke{min-height:66px}
+.btn-warning{background:var(--accent); border-color:var(--accent)}
+.btn-outline-light{color:rgba(255,255,255,0.95); border-color:rgba(255,255,255,0.12)}
+@media (max-width:576px){
+.joke{font-size:16px}
+}
